@@ -19,5 +19,5 @@ If you're familiar with python and git:
 ## Usage
 Just run the file (.py or .exe)! There isn't any configurability right now. Maybe there will be in the future. The window shows some info log messages, but that's about it.
 
-# Issues? Ideas?
+## Issues? Ideas?
 I'm all ears, just put in an issue or pull request if you have ideas / improvements / bugs.
