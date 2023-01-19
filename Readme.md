@@ -8,7 +8,7 @@ The reminders get more frequent the higher you go.
 ## Install
 
 ### LeagueGoldReminder.exe / Portable
-The easiest way to run this is to download and run LeagueGoldReminder.exe from the Releases page.
+The easiest way to run this is to download and run LeagueGoldReminder.exe from the [Releases](https://github.com/etskinner/LeagueGoldReminder/releases) page.
 
 ### Python
 If you're familiar with python and git:
