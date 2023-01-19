@@ -11,7 +11,7 @@ requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 # set up text-to-speech
 engine = pyttsx3.init()
 
-
+# make tts drier
 def say(text):
     engine.say(text)
     engine.runAndWait()
@@ -21,7 +21,7 @@ say("Text-to-speech started")
 
 # set up gold thresholds
 last_threshold = 0
-thresholds = range(10000, 0, -500)
+thresholds = range(10000, 500, -500)
 reminder_active = False
 
 # print thresholds config
@@ -54,7 +54,7 @@ while True:
             if current_gold < last_threshold:
                 print(
                     "Gold went lower than last threshold: "
-                    + str(threshold)
+                    + str(last_threshold)
                     + " -> "
                     + str(current_gold)
                 )
